@@ -50,6 +50,8 @@ Partial Class PatientManagementForm
         برنامهToolStripMenuItem = New ToolStripMenuItem()
         AboutUsOnMenu = New ToolStripMenuItem()
         ExitAppOnMenu = New ToolStripMenuItem()
+        ToolStripStatusLabel2 = New ToolStripStatusLabel()
+        ToolStripStatusLabel1 = New ToolStripStatusLabel()
         CType(PictureBox1, ComponentModel.ISupportInitialize).BeginInit()
         CType(dgvPatients, ComponentModel.ISupportInitialize).BeginInit()
         StatusStrip1.SuspendLayout()
@@ -202,7 +204,7 @@ Partial Class PatientManagementForm
         ' 
         ' StatusStrip1
         ' 
-        StatusStrip1.Items.AddRange(New ToolStripItem() {lblLoggedUserName, lblLoggedUserRole})
+        StatusStrip1.Items.AddRange(New ToolStripItem() {ToolStripStatusLabel1, lblLoggedUserName, ToolStripStatusLabel2, lblLoggedUserRole})
         StatusStrip1.Location = New Point(0, 428)
         StatusStrip1.Name = "StatusStrip1"
         StatusStrip1.RightToLeft = RightToLeft.Yes
@@ -288,6 +290,18 @@ Partial Class PatientManagementForm
         ExitAppOnMenu.Size = New Size(129, 22)
         ExitAppOnMenu.Text = "خروج"
         ' 
+        ' ToolStripStatusLabel2
+        ' 
+        ToolStripStatusLabel2.Name = "ToolStripStatusLabel2"
+        ToolStripStatusLabel2.Size = New Size(60, 17)
+        ToolStripStatusLabel2.Text = "نقش کاربر:"
+        ' 
+        ' ToolStripStatusLabel1
+        ' 
+        ToolStripStatusLabel1.Name = "ToolStripStatusLabel1"
+        ToolStripStatusLabel1.Size = New Size(80, 17)
+        ToolStripStatusLabel1.Text = "کاربر وارد شده:"
+        ' 
         ' PatientManagementForm
         ' 
         AutoScaleDimensions = New SizeF(7F, 15F)
@@ -348,4 +362,6 @@ Partial Class PatientManagementForm
     Friend WithEvents برنامهToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents AboutUsOnMenu As ToolStripMenuItem
     Friend WithEvents ExitAppOnMenu As ToolStripMenuItem
+    Friend WithEvents ToolStripStatusLabel1 As ToolStripStatusLabel
+    Friend WithEvents ToolStripStatusLabel2 As ToolStripStatusLabel
 End Class

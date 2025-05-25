@@ -1,8 +1,6 @@
 ﻿Imports System.Data.SqlClient
 
 Public Class UserManagementForm
-    Dim connectionString As String = "Server=localhost\SQLEXPRESS;Database=ClinicMilad;Integrated Security=True;"
-
     Private Sub UserManagementForm_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         LoadUsers()
         lblLoggedUserName.Text = LoggedInUserFullName
@@ -116,31 +114,33 @@ Public Class UserManagementForm
         LoginForm.Show()
     End Sub
 
-    Private Sub LogoutOnMenu_Click(sender As Object, e As EventArgs)
-        Application.Restart()
+    Private Sub UserManagementOnMenu_Click(sender As Object, e As EventArgs) Handles UserManagementOnMenu.Click
     End Sub
 
-    Private Sub ExitAppOnMenu_Click(sender As Object, e As EventArgs)
-        Application.Exit()
-    End Sub
-
-    Private Sub UserManagementOnMenu_Click(sender As Object, e As EventArgs)
-        MessageBox.Show("شما در صفحه مدیریت کاربران می باشید.")
-    End Sub
-
-    Private Sub PatientsManagementOnMenu_Click(sender As Object, e As EventArgs)
-        Hide()
+    Private Sub PatientsManagementOnMenu_Click(sender As Object, e As EventArgs) Handles PatientsManagementOnMenu.Click
+        Me.Hide()
         PatientManagementForm.Show()
     End Sub
 
-    Private Sub PrescriptionsManagementOnMenu_Click(sender As Object, e As EventArgs)
-        Hide()
+    Private Sub PrescriptionsManagementOnMenu_Click(sender As Object, e As EventArgs) Handles PrescriptionsManagementOnMenu.Click
         PrescriptionManagementForm.Show()
     End Sub
 
-    Private Sub AboutUsOnMenu_Click(sender As Object, e As EventArgs)
-        Hide()
+    Private Sub LogoutOnMenu_Click(sender As Object, e As EventArgs) Handles LogoutOnMenu.Click
+        Application.Restart()
+    End Sub
+
+    Private Sub AboutUsOnMenu_Click(sender As Object, e As EventArgs) Handles AboutUsOnMenu.Click
+        Me.Hide()
         AboutUsForm.Show()
     End Sub
 
+    Private Sub ExitAppOnMenu_Click(sender As Object, e As EventArgs) Handles ExitAppOnMenu.Click
+        Application.Exit()
+
+    End Sub
+
+    Private Sub ToolStripStatusLabel1_Click(sender As Object, e As EventArgs) Handles ToolStripStatusLabel1.Click
+
+    End Sub
 End Class

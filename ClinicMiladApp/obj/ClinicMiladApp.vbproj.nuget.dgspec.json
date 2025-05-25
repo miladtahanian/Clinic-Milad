@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Project\\Clinic Milad\\ClinicMiladApp\\ClinicMiladApp.vbproj": {}
+    "C:\\DATA\\Github\\University-K2K-Kashan_Rajaei\\آز برنامه نویسی\\Clinic-Milad\\ClinicMiladApp\\ClinicMiladApp.vbproj": {}
   },
   "projects": {
-    "D:\\Project\\Clinic Milad\\ClinicMiladApp\\ClinicMiladApp.vbproj": {
+    "C:\\DATA\\Github\\University-K2K-Kashan_Rajaei\\آز برنامه نویسی\\Clinic-Milad\\ClinicMiladApp\\ClinicMiladApp.vbproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Project\\Clinic Milad\\ClinicMiladApp\\ClinicMiladApp.vbproj",
+        "projectUniqueName": "C:\\DATA\\Github\\University-K2K-Kashan_Rajaei\\آز برنامه نویسی\\Clinic-Milad\\ClinicMiladApp\\ClinicMiladApp.vbproj",
         "projectName": "ClinicMiladApp",
-        "projectPath": "D:\\Project\\Clinic Milad\\ClinicMiladApp\\ClinicMiladApp.vbproj",
-        "packagesPath": "C:\\Users\\EDWARD\\.nuget\\packages\\",
-        "outputPath": "D:\\Project\\Clinic Milad\\ClinicMiladApp\\obj\\",
+        "projectPath": "C:\\DATA\\Github\\University-K2K-Kashan_Rajaei\\آز برنامه نویسی\\Clinic-Milad\\ClinicMiladApp\\ClinicMiladApp.vbproj",
+        "packagesPath": "C:\\Users\\mtaha\\.nuget\\packages\\",
+        "outputPath": "C:\\DATA\\Github\\University-K2K-Kashan_Rajaei\\آز برنامه نویسی\\Clinic-Milad\\ClinicMiladApp\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\EDWARD\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\mtaha\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -44,7 +44,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.200"
+        "SdkAnalysisLevel": "9.0.300"
       },
       "frameworks": {
         "net8.0-windows7.0": {
@@ -74,7 +74,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.203/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.300/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

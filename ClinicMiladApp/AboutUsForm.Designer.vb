@@ -54,9 +54,9 @@ Partial Class AboutUsForm
         Label1.AutoSize = True
         Label1.Location = New Point(25, 202)
         Label1.Name = "Label1"
-        Label1.Size = New Size(258, 105)
+        Label1.Size = New Size(258, 120)
         Label1.TabIndex = 29
-        Label1.Text = "طراحی و توسعه" & vbCrLf & "میلاد طحانیان" & vbCrLf & vbCrLf & "دانشجوی رشته کارشناسی ناپیوسته مهندسی نرم افزار" & vbCrLf & "دانشگاه شهید رجایی کاشان" & vbCrLf & vbCrLf & "بهار 1403" & vbCrLf
+        Label1.Text = "طراحی و توسعه" & vbCrLf & "میلاد طحانیان" & vbCrLf & vbCrLf & "دانشجوی رشته کارشناسی ناپیوسته مهندسی نرم افزار" & vbCrLf & "دانشگاه شهید رجایی کاشان" & vbCrLf & vbCrLf & "بهار 1404" & vbCrLf & vbCrLf
         Label1.TextAlign = ContentAlignment.MiddleCenter
         ' 
         ' btnBack
@@ -68,7 +68,7 @@ Partial Class AboutUsForm
         btnBack.Text = "بازگشت"
         btnBack.UseVisualStyleBackColor = True
         ' 
-        ' AboutUs
+        ' AboutUsForm
         ' 
         AutoScaleDimensions = New SizeF(7F, 15F)
         AutoScaleMode = AutoScaleMode.Font
@@ -77,7 +77,7 @@ Partial Class AboutUsForm
         Controls.Add(Label1)
         Controls.Add(lblClinicMilad)
         Controls.Add(PictureBox1)
-        Name = "AboutUs"
+        Name = "AboutUsForm"
         Text = "AboutUs"
         CType(PictureBox1, ComponentModel.ISupportInitialize).EndInit()
         ResumeLayout(False)

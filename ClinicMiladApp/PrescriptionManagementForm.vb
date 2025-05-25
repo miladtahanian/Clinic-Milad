@@ -1,8 +1,6 @@
 ﻿Imports System.Data.SqlClient
 
 Public Class PrescriptionManagementForm
-    Dim connectionString As String = "Server=localhost\SQLEXPRESS;Database=ClinicMilad;Integrated Security=True;"
-
     Private Sub PrescriptionManagementForm_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         LoadPatients()
         LoadPrescriptions()
