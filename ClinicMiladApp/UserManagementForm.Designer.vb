@@ -38,7 +38,9 @@ Partial Class UserManagementForm
         cboRole = New ComboBox()
         btnLogout = New Button()
         StatusStrip1 = New StatusStrip()
+        ToolStripStatusLabel1 = New ToolStripStatusLabel()
         lblLoggedUserName = New ToolStripStatusLabel()
+        ToolStripStatusLabel2 = New ToolStripStatusLabel()
         lblLoggedUserRole = New ToolStripStatusLabel()
         MainMenu = New MenuStrip()
         مدیریتسامانهToolStripMenuItem = New ToolStripMenuItem()
@@ -50,8 +52,6 @@ Partial Class UserManagementForm
         برنامهToolStripMenuItem = New ToolStripMenuItem()
         AboutUsOnMenu = New ToolStripMenuItem()
         ExitAppOnMenu = New ToolStripMenuItem()
-        ToolStripStatusLabel1 = New ToolStripStatusLabel()
-        ToolStripStatusLabel2 = New ToolStripStatusLabel()
         CType(dgvUsers, ComponentModel.ISupportInitialize).BeginInit()
         CType(PictureBox1, ComponentModel.ISupportInitialize).BeginInit()
         StatusStrip1.SuspendLayout()
@@ -145,11 +145,11 @@ Partial Class UserManagementForm
         ' lblClinicMilad
         ' 
         lblClinicMilad.AutoSize = True
-        lblClinicMilad.Location = New Point(582, 43)
+        lblClinicMilad.Location = New Point(572, 44)
         lblClinicMilad.Name = "lblClinicMilad"
-        lblClinicMilad.Size = New Size(152, 15)
+        lblClinicMilad.Size = New Size(162, 15)
         lblClinicMilad.TabIndex = 24
-        lblClinicMilad.Text = "کلینیک میلاد - مدیریت کاربران"
+        lblClinicMilad.Text = "کلینیک پزشکی - مدیریت کاربران"
         ' 
         ' PictureBox1
         ' 
@@ -210,11 +210,23 @@ Partial Class UserManagementForm
         StatusStrip1.TabIndex = 42
         StatusStrip1.Text = "StatusStrip1"
         ' 
+        ' ToolStripStatusLabel1
+        ' 
+        ToolStripStatusLabel1.Name = "ToolStripStatusLabel1"
+        ToolStripStatusLabel1.Size = New Size(80, 17)
+        ToolStripStatusLabel1.Text = "کاربر وارد شده:"
+        ' 
         ' lblLoggedUserName
         ' 
         lblLoggedUserName.Name = "lblLoggedUserName"
         lblLoggedUserName.Size = New Size(94, 17)
         lblLoggedUserName.Text = "نام کاربر وارد شده"
+        ' 
+        ' ToolStripStatusLabel2
+        ' 
+        ToolStripStatusLabel2.Name = "ToolStripStatusLabel2"
+        ToolStripStatusLabel2.Size = New Size(60, 17)
+        ToolStripStatusLabel2.Text = "نقش کاربر:"
         ' 
         ' lblLoggedUserRole
         ' 
@@ -287,18 +299,6 @@ Partial Class UserManagementForm
         ExitAppOnMenu.Name = "ExitAppOnMenu"
         ExitAppOnMenu.Size = New Size(129, 22)
         ExitAppOnMenu.Text = "خروج"
-        ' 
-        ' ToolStripStatusLabel1
-        ' 
-        ToolStripStatusLabel1.Name = "ToolStripStatusLabel1"
-        ToolStripStatusLabel1.Size = New Size(80, 17)
-        ToolStripStatusLabel1.Text = "کاربر وارد شده:"
-        ' 
-        ' ToolStripStatusLabel2
-        ' 
-        ToolStripStatusLabel2.Name = "ToolStripStatusLabel2"
-        ToolStripStatusLabel2.Size = New Size(60, 17)
-        ToolStripStatusLabel2.Text = "نقش کاربر:"
         ' 
         ' UserManagementForm
         ' 

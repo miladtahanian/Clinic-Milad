@@ -112,9 +112,9 @@ Partial Class LoginForm
         Label1.AutoSize = True
         Label1.Location = New Point(129, 118)
         Label1.Name = "Label1"
-        Label1.Size = New Size(67, 15)
+        Label1.Size = New Size(77, 15)
         Label1.TabIndex = 7
-        Label1.Text = "کلینیک میلاد"
+        Label1.Text = "کلینیک پزشکی"
         ' 
         ' lblMessage
         ' 

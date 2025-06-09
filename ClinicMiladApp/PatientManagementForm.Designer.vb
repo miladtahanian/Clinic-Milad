@@ -38,7 +38,9 @@ Partial Class PatientManagementForm
         btnEditPatient = New Button()
         btnDeletePatient = New Button()
         StatusStrip1 = New StatusStrip()
+        ToolStripStatusLabel1 = New ToolStripStatusLabel()
         lblLoggedUserName = New ToolStripStatusLabel()
+        ToolStripStatusLabel2 = New ToolStripStatusLabel()
         lblLoggedUserRole = New ToolStripStatusLabel()
         MainMenu = New MenuStrip()
         مدیریتسامانهToolStripMenuItem = New ToolStripMenuItem()
@@ -50,8 +52,6 @@ Partial Class PatientManagementForm
         برنامهToolStripMenuItem = New ToolStripMenuItem()
         AboutUsOnMenu = New ToolStripMenuItem()
         ExitAppOnMenu = New ToolStripMenuItem()
-        ToolStripStatusLabel2 = New ToolStripStatusLabel()
-        ToolStripStatusLabel1 = New ToolStripStatusLabel()
         CType(PictureBox1, ComponentModel.ISupportInitialize).BeginInit()
         CType(dgvPatients, ComponentModel.ISupportInitialize).BeginInit()
         StatusStrip1.SuspendLayout()
@@ -61,11 +61,11 @@ Partial Class PatientManagementForm
         ' lblClinicMilad
         ' 
         lblClinicMilad.AutoSize = True
-        lblClinicMilad.Location = New Point(582, 44)
+        lblClinicMilad.Location = New Point(572, 44)
         lblClinicMilad.Name = "lblClinicMilad"
-        lblClinicMilad.Size = New Size(152, 15)
+        lblClinicMilad.Size = New Size(162, 15)
         lblClinicMilad.TabIndex = 9
-        lblClinicMilad.Text = "کلینیک میلاد - مدیریت بیماران"
+        lblClinicMilad.Text = "کلینیک پزشکی - مدیریت بیماران"
         ' 
         ' PictureBox1
         ' 
@@ -212,11 +212,23 @@ Partial Class PatientManagementForm
         StatusStrip1.TabIndex = 25
         StatusStrip1.Text = "StatusStrip1"
         ' 
+        ' ToolStripStatusLabel1
+        ' 
+        ToolStripStatusLabel1.Name = "ToolStripStatusLabel1"
+        ToolStripStatusLabel1.Size = New Size(80, 17)
+        ToolStripStatusLabel1.Text = "کاربر وارد شده:"
+        ' 
         ' lblLoggedUserName
         ' 
         lblLoggedUserName.Name = "lblLoggedUserName"
         lblLoggedUserName.Size = New Size(94, 17)
         lblLoggedUserName.Text = "نام کاربر وارد شده"
+        ' 
+        ' ToolStripStatusLabel2
+        ' 
+        ToolStripStatusLabel2.Name = "ToolStripStatusLabel2"
+        ToolStripStatusLabel2.Size = New Size(60, 17)
+        ToolStripStatusLabel2.Text = "نقش کاربر:"
         ' 
         ' lblLoggedUserRole
         ' 
@@ -289,18 +301,6 @@ Partial Class PatientManagementForm
         ExitAppOnMenu.Name = "ExitAppOnMenu"
         ExitAppOnMenu.Size = New Size(129, 22)
         ExitAppOnMenu.Text = "خروج"
-        ' 
-        ' ToolStripStatusLabel2
-        ' 
-        ToolStripStatusLabel2.Name = "ToolStripStatusLabel2"
-        ToolStripStatusLabel2.Size = New Size(60, 17)
-        ToolStripStatusLabel2.Text = "نقش کاربر:"
-        ' 
-        ' ToolStripStatusLabel1
-        ' 
-        ToolStripStatusLabel1.Name = "ToolStripStatusLabel1"
-        ToolStripStatusLabel1.Size = New Size(80, 17)
-        ToolStripStatusLabel1.Text = "کاربر وارد شده:"
         ' 
         ' PatientManagementForm
         ' 

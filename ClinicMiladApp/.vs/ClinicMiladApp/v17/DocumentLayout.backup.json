@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\DATA\\Github\\University-K2K-Kashan_Rajaei\\\u0622\u0632 \u0628\u0631\u0646\u0627\u0645\u0647 \u0646\u0648\u06CC\u0633\u06CC\\Clinic-Milad\\ClinicMiladApp\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{7FB341E5-5F3E-4BE9-9C12-D20BEFDCDE5F}|ClinicMiladApp.vbproj|c:\\data\\github\\university-k2k-kashan_rajaei\\\u0622\u0632 \u0628\u0631\u0646\u0627\u0645\u0647 \u0646\u0648\u06CC\u0633\u06CC\\clinic-milad\\clinicmiladapp\\prescriptionmanagementform.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{7FB341E5-5F3E-4BE9-9C12-D20BEFDCDE5F}|ClinicMiladApp.vbproj|solutionrelative:prescriptionmanagementform.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{7FB341E5-5F3E-4BE9-9C12-D20BEFDCDE5F}|ClinicMiladApp.vbproj|c:\\data\\github\\university-k2k-kashan_rajaei\\\u0622\u0632 \u0628\u0631\u0646\u0627\u0645\u0647 \u0646\u0648\u06CC\u0633\u06CC\\clinic-milad\\clinicmiladapp\\globalvariables.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
       "RelativeMoniker": "D:0:0:{7FB341E5-5F3E-4BE9-9C12-D20BEFDCDE5F}|ClinicMiladApp.vbproj|solutionrelative:globalvariables.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
     }
@@ -19,14 +23,27 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "PrescriptionManagementForm.vb",
+              "DocumentMoniker": "C:\\DATA\\Github\\University-K2K-Kashan_Rajaei\\\u0622\u0632 \u0628\u0631\u0646\u0627\u0645\u0647 \u0646\u0648\u06CC\u0633\u06CC\\Clinic-Milad\\ClinicMiladApp\\PrescriptionManagementForm.vb",
+              "RelativeDocumentMoniker": "PrescriptionManagementForm.vb",
+              "ToolTip": "C:\\DATA\\Github\\University-K2K-Kashan_Rajaei\\\u0622\u0632 \u0628\u0631\u0646\u0627\u0645\u0647 \u0646\u0648\u06CC\u0633\u06CC\\Clinic-Milad\\ClinicMiladApp\\PrescriptionManagementForm.vb*",
+              "RelativeToolTip": "PrescriptionManagementForm.vb*",
+              "ViewState": "AgIAAAoAAAAAAAAAAAA3wCAAAAChAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2025-06-09T16:07:29.858Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "GlobalVariables.vb",
               "DocumentMoniker": "C:\\DATA\\Github\\University-K2K-Kashan_Rajaei\\\u0622\u0632 \u0628\u0631\u0646\u0627\u0645\u0647 \u0646\u0648\u06CC\u0633\u06CC\\Clinic-Milad\\ClinicMiladApp\\GlobalVariables.vb",
               "RelativeDocumentMoniker": "GlobalVariables.vb",
               "ToolTip": "C:\\DATA\\Github\\University-K2K-Kashan_Rajaei\\\u0622\u0632 \u0628\u0631\u0646\u0627\u0645\u0647 \u0646\u0648\u06CC\u0633\u06CC\\Clinic-Milad\\ClinicMiladApp\\GlobalVariables.vb",
               "RelativeToolTip": "GlobalVariables.vb",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAUAAAA6AAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAA6wAUAAABcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
-              "WhenOpened": "2025-06-08T10:03:14.335Z",
+              "WhenOpened": "2025-06-09T16:04:40.245Z",
               "EditorCaption": ""
             }
           ]

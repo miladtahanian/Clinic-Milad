@@ -33,11 +33,11 @@ Partial Class AboutUsForm
         ' lblClinicMilad
         ' 
         lblClinicMilad.AutoSize = True
-        lblClinicMilad.Location = New Point(123, 176)
+        lblClinicMilad.Location = New Point(113, 176)
         lblClinicMilad.Name = "lblClinicMilad"
-        lblClinicMilad.Size = New Size(67, 15)
+        lblClinicMilad.Size = New Size(77, 15)
         lblClinicMilad.TabIndex = 28
-        lblClinicMilad.Text = "کلینیک میلاد"
+        lblClinicMilad.Text = "کلینیک پزشکی"
         ' 
         ' PictureBox1
         ' 
@@ -54,14 +54,14 @@ Partial Class AboutUsForm
         Label1.AutoSize = True
         Label1.Location = New Point(25, 202)
         Label1.Name = "Label1"
-        Label1.Size = New Size(258, 120)
+        Label1.Size = New Size(265, 180)
         Label1.TabIndex = 29
-        Label1.Text = "طراحی و توسعه" & vbCrLf & "میلاد طحانیان" & vbCrLf & vbCrLf & "دانشجوی رشته کارشناسی ناپیوسته مهندسی نرم افزار" & vbCrLf & "دانشگاه شهید رجایی کاشان" & vbCrLf & vbCrLf & "بهار 1404" & vbCrLf & vbCrLf
+        Label1.Text = resources.GetString("Label1.Text")
         Label1.TextAlign = ContentAlignment.MiddleCenter
         ' 
         ' btnBack
         ' 
-        btnBack.Location = New Point(115, 333)
+        btnBack.Location = New Point(115, 402)
         btnBack.Name = "btnBack"
         btnBack.Size = New Size(75, 23)
         btnBack.TabIndex = 30
@@ -72,7 +72,7 @@ Partial Class AboutUsForm
         ' 
         AutoScaleDimensions = New SizeF(7F, 15F)
         AutoScaleMode = AutoScaleMode.Font
-        ClientSize = New Size(304, 368)
+        ClientSize = New Size(304, 437)
         Controls.Add(btnBack)
         Controls.Add(Label1)
         Controls.Add(lblClinicMilad)

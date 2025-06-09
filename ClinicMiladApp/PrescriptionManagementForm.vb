@@ -30,7 +30,7 @@ Public Class PrescriptionManagementForm
         Using conn As New SqlConnection(connectionString)
             Try
                 conn.Open()
-                Dim query As String = "SELECT Prescriptions.PrescriptionID AS 'شناسه نسخه',Patients.FullName AS 'نام بیمار',Prescriptions.DoctorID AS 'شناسه دکتر',Users.FullName AS 'نام دکتر', PrescriptionText AS 'نسخه' FROM Prescriptions,Patients,Users WHERE Prescriptions.DoctorID = Users.UserID"
+                Dim query As String = "SELECT Prescriptions.PrescriptionID AS 'شناسه نسخه',Patients.PatientID AS 'شناسه بیمار',Patients.FullName AS 'نام بیمار', Prescriptions.DoctorID AS 'شناسه دکتر',Users.FullName AS 'نام دکتر', PrescriptionText AS 'نسخه'  FROM Prescriptions,Patients,Users WHERE Prescriptions.DoctorID = Users.UserID and Patients.PatientID = Prescriptions.PatientID"
                 Using cmd As New SqlCommand(query, conn)
                     Dim dt As New DataTable()
                     dt.Load(cmd.ExecuteReader())
@@ -92,7 +92,7 @@ Public Class PrescriptionManagementForm
 
     Private Sub btnEditPrescription_Click(sender As Object, e As EventArgs) Handles btnEditPrescription.Click
         If dgvPrescriptions.SelectedRows.Count > 0 Then
-            Dim prescriptionId As Integer = CInt(dgvPrescriptions.SelectedRows(0).Cells("PrescriptionID").Value)
+            Dim prescriptionId As Integer = CInt(dgvPrescriptions.SelectedRows(0).Cells("نام بیمار").Value)
             Dim newText As String = txtPrescription.Text
 
             Using conn As New SqlConnection(connectionString)

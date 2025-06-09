@@ -30,7 +30,9 @@ Partial Class PrescriptionManagementForm
         btnWritePrescription = New Button()
         txtPrescription = New TextBox()
         StatusStrip1 = New StatusStrip()
+        ToolStripStatusLabel1 = New ToolStripStatusLabel()
         lblLoggedUserName = New ToolStripStatusLabel()
+        ToolStripStatusLabel2 = New ToolStripStatusLabel()
         lblLoggedUserRole = New ToolStripStatusLabel()
         lblErrorForDoctor = New ToolStripStatusLabel()
         dgvPrescriptions = New DataGridView()
@@ -46,8 +48,6 @@ Partial Class PrescriptionManagementForm
         برنامهToolStripMenuItem = New ToolStripMenuItem()
         AboutUsOnMenu = New ToolStripMenuItem()
         ExitAppOnMenu = New ToolStripMenuItem()
-        ToolStripStatusLabel2 = New ToolStripStatusLabel()
-        ToolStripStatusLabel1 = New ToolStripStatusLabel()
         CType(PictureBox1, ComponentModel.ISupportInitialize).BeginInit()
         StatusStrip1.SuspendLayout()
         CType(dgvPrescriptions, ComponentModel.ISupportInitialize).BeginInit()
@@ -57,11 +57,11 @@ Partial Class PrescriptionManagementForm
         ' lblClinicMilad
         ' 
         lblClinicMilad.AutoSize = True
-        lblClinicMilad.Location = New Point(594, 41)
+        lblClinicMilad.Location = New Point(587, 41)
         lblClinicMilad.Name = "lblClinicMilad"
-        lblClinicMilad.Size = New Size(140, 15)
+        lblClinicMilad.Size = New Size(147, 15)
         lblClinicMilad.TabIndex = 11
-        lblClinicMilad.Text = "کلینیک میلاد - نسخه نویسی"
+        lblClinicMilad.Text = "کلینیک پزشکی- نسخه نویسی"
         ' 
         ' PictureBox1
         ' 
@@ -122,11 +122,23 @@ Partial Class PrescriptionManagementForm
         StatusStrip1.TabIndex = 25
         StatusStrip1.Text = "StatusStrip1"
         ' 
+        ' ToolStripStatusLabel1
+        ' 
+        ToolStripStatusLabel1.Name = "ToolStripStatusLabel1"
+        ToolStripStatusLabel1.Size = New Size(80, 17)
+        ToolStripStatusLabel1.Text = "کاربر وارد شده:"
+        ' 
         ' lblLoggedUserName
         ' 
         lblLoggedUserName.Name = "lblLoggedUserName"
         lblLoggedUserName.Size = New Size(94, 17)
         lblLoggedUserName.Text = "نام کاربر وارد شده"
+        ' 
+        ' ToolStripStatusLabel2
+        ' 
+        ToolStripStatusLabel2.Name = "ToolStripStatusLabel2"
+        ToolStripStatusLabel2.Size = New Size(60, 17)
+        ToolStripStatusLabel2.Text = "نقش کاربر:"
         ' 
         ' lblLoggedUserRole
         ' 
@@ -234,18 +246,6 @@ Partial Class PrescriptionManagementForm
         ExitAppOnMenu.Name = "ExitAppOnMenu"
         ExitAppOnMenu.Size = New Size(129, 22)
         ExitAppOnMenu.Text = "خروج"
-        ' 
-        ' ToolStripStatusLabel2
-        ' 
-        ToolStripStatusLabel2.Name = "ToolStripStatusLabel2"
-        ToolStripStatusLabel2.Size = New Size(60, 17)
-        ToolStripStatusLabel2.Text = "نقش کاربر:"
-        ' 
-        ' ToolStripStatusLabel1
-        ' 
-        ToolStripStatusLabel1.Name = "ToolStripStatusLabel1"
-        ToolStripStatusLabel1.Size = New Size(80, 17)
-        ToolStripStatusLabel1.Text = "کاربر وارد شده:"
         ' 
         ' PrescriptionManagementForm
         ' 

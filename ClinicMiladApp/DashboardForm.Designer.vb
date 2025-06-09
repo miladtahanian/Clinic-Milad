@@ -46,11 +46,11 @@ Partial Class DashboardForm
         ' lblClinicMilad
         ' 
         lblClinicMilad.AutoSize = True
-        lblClinicMilad.Location = New Point(349, 198)
+        lblClinicMilad.Location = New Point(337, 198)
         lblClinicMilad.Name = "lblClinicMilad"
-        lblClinicMilad.Size = New Size(67, 15)
+        lblClinicMilad.Size = New Size(77, 15)
         lblClinicMilad.TabIndex = 26
-        lblClinicMilad.Text = "کلینیک میلاد"
+        lblClinicMilad.Text = "کلینیک پزشکی"
         ' 
         ' PictureBox1
         ' 
