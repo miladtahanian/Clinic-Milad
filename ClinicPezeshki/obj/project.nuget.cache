@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "dk8C67exvVs=",
+  "dgSpecHash": "9GR8bzXHU4Y=",
   "success": true,
-  "projectFilePath": "C:\\DATA\\Github\\University-K2K-Kashan_Rajaei\\آز برنامه نویسی\\Clinic-Milad\\ClinicPezeshki\\ClinicMiladApp.vbproj",
+  "projectFilePath": "D:\\Git\\Clinic-Milad\\ClinicPezeshki\\ClinicMiladApp.vbproj",
   "expectedPackageFiles": [
     "C:\\Users\\mtaha\\.nuget\\packages\\runtime.native.system.data.sqlclient.sni\\4.4.0\\runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",
     "C:\\Users\\mtaha\\.nuget\\packages\\runtime.win-arm64.runtime.native.system.data.sqlclient.sni\\4.4.0\\runtime.win-arm64.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",
@@ -10,15 +10,5 @@
     "C:\\Users\\mtaha\\.nuget\\packages\\runtime.win-x86.runtime.native.system.data.sqlclient.sni\\4.4.0\\runtime.win-x86.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",
     "C:\\Users\\mtaha\\.nuget\\packages\\system.data.sqlclient\\4.9.0\\system.data.sqlclient.4.9.0.nupkg.sha512"
   ],
-  "logs": [
-    {
-      "code": "NU1900",
-      "level": "Warning",
-      "message": "Error occurred while getting package vulnerability data: Unable to load the service index for source https://api.nuget.org/v3/index.json.",
-      "projectPath": "C:\\DATA\\Github\\University-K2K-Kashan_Rajaei\\آز برنامه نویسی\\Clinic-Milad\\ClinicPezeshki\\ClinicMiladApp.vbproj",
-      "warningLevel": 1,
-      "filePath": "C:\\DATA\\Github\\University-K2K-Kashan_Rajaei\\آز برنامه نویسی\\Clinic-Milad\\ClinicPezeshki\\ClinicMiladApp.vbproj",
-      "targetGraphs": []
-    }
-  ]
+  "logs": []
 }

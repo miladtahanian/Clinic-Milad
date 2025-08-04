@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\DATA\\Github\\University-K2K-Kashan_Rajaei\\آز برنامه نویسی\\Clinic-Milad\\ClinicPezeshki\\ClinicMiladApp.vbproj": {}
+    "D:\\Git\\Clinic-Milad\\ClinicPezeshki\\ClinicMiladApp.vbproj": {}
   },
   "projects": {
-    "C:\\DATA\\Github\\University-K2K-Kashan_Rajaei\\آز برنامه نویسی\\Clinic-Milad\\ClinicPezeshki\\ClinicMiladApp.vbproj": {
+    "D:\\Git\\Clinic-Milad\\ClinicPezeshki\\ClinicMiladApp.vbproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\DATA\\Github\\University-K2K-Kashan_Rajaei\\آز برنامه نویسی\\Clinic-Milad\\ClinicPezeshki\\ClinicMiladApp.vbproj",
+        "projectUniqueName": "D:\\Git\\Clinic-Milad\\ClinicPezeshki\\ClinicMiladApp.vbproj",
         "projectName": "ClinicMiladApp",
-        "projectPath": "C:\\DATA\\Github\\University-K2K-Kashan_Rajaei\\آز برنامه نویسی\\Clinic-Milad\\ClinicPezeshki\\ClinicMiladApp.vbproj",
+        "projectPath": "D:\\Git\\Clinic-Milad\\ClinicPezeshki\\ClinicMiladApp.vbproj",
         "packagesPath": "C:\\Users\\mtaha\\.nuget\\packages\\",
-        "outputPath": "C:\\DATA\\Github\\University-K2K-Kashan_Rajaei\\آز برنامه نویسی\\Clinic-Milad\\ClinicPezeshki\\obj\\",
+        "outputPath": "D:\\Git\\Clinic-Milad\\ClinicPezeshki\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -26,6 +26,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -74,7 +75,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.300/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.301/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
