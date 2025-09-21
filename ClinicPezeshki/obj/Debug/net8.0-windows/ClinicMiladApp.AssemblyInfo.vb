@@ -16,7 +16,7 @@ Imports System.Reflection
 <Assembly: System.Reflection.AssemblyCompanyAttribute("ClinicMiladApp"),  _
  Assembly: System.Reflection.AssemblyConfigurationAttribute("Debug"),  _
  Assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0"),  _
- Assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+db46aa204374de79e65e1cfd189b484931414dcb"),  _
+ Assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+95d5af4dbde58463ee76b1aa201e7c68e66b67df"),  _
  Assembly: System.Reflection.AssemblyProductAttribute("ClinicMiladApp"),  _
  Assembly: System.Reflection.AssemblyTitleAttribute("ClinicMiladApp"),  _
  Assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0"),  _

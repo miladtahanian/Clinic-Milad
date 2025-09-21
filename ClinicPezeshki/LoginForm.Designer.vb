@@ -96,6 +96,7 @@ Partial Class LoginForm
         txtPassword.Size = New Size(142, 23)
         txtPassword.TabIndex = 5
         txtPassword.TextAlign = HorizontalAlignment.Center
+        txtPassword.UseSystemPasswordChar = True
         ' 
         ' PictureBox1
         ' 

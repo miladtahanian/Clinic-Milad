@@ -175,4 +175,7 @@ Public Class PrescriptionManagementForm
         AboutUsForm.Show()
     End Sub
 
+    Private Sub dgvPrescriptions_CellContentClick(sender As Object, e As DataGridViewCellEventArgs) Handles dgvPrescriptions.CellContentClick
+
+    End Sub
 End Class

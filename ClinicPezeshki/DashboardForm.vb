@@ -31,4 +31,5 @@
         Me.Hide()
         AboutUsForm.Show()
     End Sub
+
 End Class

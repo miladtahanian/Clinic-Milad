@@ -121,3 +121,34 @@ C:\DATA\Github\University-K2K-Kashan_Rajaei\آز برنامه نویسی\Clinic-
 C:\DATA\Github\University-K2K-Kashan_Rajaei\آز برنامه نویسی\Clinic-Milad\ClinicPezeshki\obj\Debug\net8.0-windows\ClinicMiladApp.pdb
 C:\DATA\Github\University-K2K-Kashan_Rajaei\آز برنامه نویسی\Clinic-Milad\ClinicPezeshki\obj\Debug\net8.0-windows\ClinicMiladApp.genruntimeconfig.cache
 C:\DATA\Github\University-K2K-Kashan_Rajaei\آز برنامه نویسی\Clinic-Milad\ClinicPezeshki\obj\Debug\net8.0-windows\ref\ClinicMiladApp.dll
+C:\Git\Clinic-Milad\ClinicPezeshki\bin\Debug\net8.0-windows\ClinicMiladApp.exe
+C:\Git\Clinic-Milad\ClinicPezeshki\bin\Debug\net8.0-windows\ClinicMiladApp.deps.json
+C:\Git\Clinic-Milad\ClinicPezeshki\bin\Debug\net8.0-windows\ClinicMiladApp.runtimeconfig.json
+C:\Git\Clinic-Milad\ClinicPezeshki\bin\Debug\net8.0-windows\ClinicMiladApp.dll
+C:\Git\Clinic-Milad\ClinicPezeshki\bin\Debug\net8.0-windows\ClinicMiladApp.pdb
+C:\Git\Clinic-Milad\ClinicPezeshki\bin\Debug\net8.0-windows\System.Data.SqlClient.dll
+C:\Git\Clinic-Milad\ClinicPezeshki\bin\Debug\net8.0-windows\runtimes\win-arm64\native\sni.dll
+C:\Git\Clinic-Milad\ClinicPezeshki\bin\Debug\net8.0-windows\runtimes\win-x64\native\sni.dll
+C:\Git\Clinic-Milad\ClinicPezeshki\bin\Debug\net8.0-windows\runtimes\win-x86\native\sni.dll
+C:\Git\Clinic-Milad\ClinicPezeshki\bin\Debug\net8.0-windows\runtimes\unix\lib\net8.0\System.Data.SqlClient.dll
+C:\Git\Clinic-Milad\ClinicPezeshki\bin\Debug\net8.0-windows\runtimes\win\lib\net8.0\System.Data.SqlClient.dll
+C:\Git\Clinic-Milad\ClinicPezeshki\obj\Debug\net8.0-windows\ClinicMiladApp.vbproj.AssemblyReference.cache
+C:\Git\Clinic-Milad\ClinicPezeshki\obj\Debug\net8.0-windows\ClinicMiladApp.AboutUsForm.resources
+C:\Git\Clinic-Milad\ClinicPezeshki\obj\Debug\net8.0-windows\ClinicMiladApp.DashboardForm.resources
+C:\Git\Clinic-Milad\ClinicPezeshki\obj\Debug\net8.0-windows\ClinicMiladApp.LoginForm.resources
+C:\Git\Clinic-Milad\ClinicPezeshki\obj\Debug\net8.0-windows\ClinicMiladApp.Resources.resources
+C:\Git\Clinic-Milad\ClinicPezeshki\obj\Debug\net8.0-windows\ClinicMiladApp.PatientManagementForm.resources
+C:\Git\Clinic-Milad\ClinicPezeshki\obj\Debug\net8.0-windows\ClinicMiladApp.PrescriptionManagementForm.resources
+C:\Git\Clinic-Milad\ClinicPezeshki\obj\Debug\net8.0-windows\ClinicMiladApp.UserManagementForm.resources
+C:\Git\Clinic-Milad\ClinicPezeshki\obj\Debug\net8.0-windows\ClinicMiladApp.vbproj.GenerateResource.cache
+C:\Git\Clinic-Milad\ClinicPezeshki\obj\Debug\net8.0-windows\ClinicMiladApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Git\Clinic-Milad\ClinicPezeshki\obj\Debug\net8.0-windows\ClinicMiladApp.AssemblyInfoInputs.cache
+C:\Git\Clinic-Milad\ClinicPezeshki\obj\Debug\net8.0-windows\ClinicMiladApp.AssemblyInfo.vb
+C:\Git\Clinic-Milad\ClinicPezeshki\obj\Debug\net8.0-windows\ClinicMiladApp.vbproj.CoreCompileInputs.cache
+C:\Git\Clinic-Milad\ClinicPezeshki\obj\Debug\net8.0-windows\ClinicMiladApp.sourcelink.json
+C:\Git\Clinic-Milad\ClinicPezeshki\obj\Debug\net8.0-windows\ClinicMi.313D9AC5.Up2Date
+C:\Git\Clinic-Milad\ClinicPezeshki\obj\Debug\net8.0-windows\ClinicMiladApp.dll
+C:\Git\Clinic-Milad\ClinicPezeshki\obj\Debug\net8.0-windows\refint\ClinicMiladApp.dll
+C:\Git\Clinic-Milad\ClinicPezeshki\obj\Debug\net8.0-windows\ClinicMiladApp.pdb
+C:\Git\Clinic-Milad\ClinicPezeshki\obj\Debug\net8.0-windows\ClinicMiladApp.genruntimeconfig.cache
+C:\Git\Clinic-Milad\ClinicPezeshki\obj\Debug\net8.0-windows\ref\ClinicMiladApp.dll

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "9GR8bzXHU4Y=",
+  "dgSpecHash": "YalEfqFxx+c=",
   "success": true,
-  "projectFilePath": "D:\\Git\\Clinic-Milad\\ClinicPezeshki\\ClinicMiladApp.vbproj",
+  "projectFilePath": "C:\\Git\\Clinic-Milad\\ClinicPezeshki\\ClinicMiladApp.vbproj",
   "expectedPackageFiles": [
     "C:\\Users\\mtaha\\.nuget\\packages\\runtime.native.system.data.sqlclient.sni\\4.4.0\\runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",
     "C:\\Users\\mtaha\\.nuget\\packages\\runtime.win-arm64.runtime.native.system.data.sqlclient.sni\\4.4.0\\runtime.win-arm64.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",
